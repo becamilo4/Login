@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/b7e713bb32.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style/bootstrap.css">
+    <link rel="stylesheet" href="./src/style/style.css">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="body">
+    
+<main class="main">
+
+    <div class="main__container">
+    <!-- <figure> <img class="main__logo" src="./src/logo/becamilo (1).png" alt="logo" srcset=""></figure> -->
+    <h2>Create a new user</h2>
+    <p>Enter a new password for you account</p>
+
+    <form action="" class="main__form" id="form">
+        <div class="main__container-name" id="main__name">
+                <label for="name" class="main__label main__name">name</label>
+                <div class="main__container-input" id="main__container-input-name">
+                    <input type="text" class="main__input main__input-user" id="name" name="name" placeholder="Enter your name">
+                    <span class="main__circle fas fa-times-circle"></span>
+                </div>
+                <p class="main__input-error">The username must be 4 to 16 digits long and can only contain numbers, letters, and underscore.</p>
+       
+        </div>
+        <div class="main__container-user" id="main__user">
+                <label for="user" class="main__label main__user">User</label>
+                <div class="main__container-input" id="main__container-input-user">
+                    <input type="text" class="main__input main__input-user" id="user" name="user" placeholder="Enter your username">
+                    <span class="main__circle fas fa-times-circle"></span>
+                </div>
+                <p class="main__input-error">The username must be 4 to 16 digits long and can only contain numbers, letters, and underscore.</p>
+            </div>
+        
+     
+            <div class="main__container-email" id="main__email">
+                <label for="mail" class="main__label main__mail">email</label>
+                <div class="main__container-input" id="main__container-input-email">
+                    <input type="email" class="main__input main__input-email" id="email" name="email" placeholder="Enter your email">
+                    <span class="main__circle fas fa-times-circle"></span>
+                </div>
+                <p class="main__input-error">The email can only contain letters, numbers, periods, hyphens and underscore.</p>
+            </div>
+          
+        
+
+            <div class="main__container-password" id="main__password">
+                <label for="password" class="main__label main__password">password</label>
+                <div class="main__container-input" id="main__container-input-password">
+                    <input type="password" class="main__input main__input-password" id="password" name="password" placeholder="Enter your password">
+                    <span class="main__circle fas fa-times-circle"></span>
+                </div>
+                <p class="main__input-error">The password has to be 10 to 30 digits</p>
+            </div>
+  
+     
+      
+            <div class="main__container-repetpassword" id="main__repetpassword">
+                <label for="repetpassword" class="main__label main__repetpassword">repet password</label>
+                <div class="main__container-input" id="main__container-input-repetpassword">
+                    <input type="password" class="main__input main__input-repetpassword" id="repetpassword" name="repetpassword" placeholder="Enter your password">
+                    <span class="main__circle fas fa-times-circle"></span>
+                </div>
+                <p class="main__input-error">Both passwords must be the same</p>
+            </div>
+
+       
+
+        <button class="main__confirm">Confirm</button>
+    
+    </form>
+    </div>
+
+</main>
+
+
+</body>
+
+<script src="./src/form/index.js"></script>
+</html>
